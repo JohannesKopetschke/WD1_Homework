@@ -1,3 +1,5 @@
+Alle GIT Notes
+
 cd Ordner
 cd Desktop/Smartninja/wd1/
 
@@ -9,7 +11,7 @@ git log
 
 Ordner zu Git hinzufügen:
 git add .    (Ganzer Ordner durch . )
-git commit -m
+git commit -m "X"
 git push
 
 Allgemein:
@@ -36,8 +38,9 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 jkopetschke:smartninja_2018 jkopetschke$ ls
 wd1_2018
-jkopetschke:smartninja_2018 jkopetschke$ cd wd1_2018/
+jkopetschke:smartninja_2018 jkopetschke$ cd wd1_2018/ >>> in einen Ordner reingehen
 
 Wo bin ich in welchem Ordner >>> "pwd"
 Alles hoch laden durch >>> "git add ."
 
+git diff --staged >> Alle Änderungen die in der Staged Phase sind die commited werden sollen

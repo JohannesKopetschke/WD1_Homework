@@ -1,0 +1,43 @@
+cd Ordner
+cd Desktop/Smartninja/wd1/
+
+Git Terminal Befehle Übersicht:
+git status
+git diff
+git log
+
+
+Ordner zu Git hinzufügen:
+git add .    (Ganzer Ordner durch . )
+git commit -m
+git push
+
+Allgemein:
+q = Quit
+
+
+Last login: Tue Sep 11 18:16:51 on ttys001
+jkopetschke:~ jkopetschke$ cd
+jkopetschke:~ jkopetschke$ pwd
+jkopetschke:~ jkopetschke$ cd Users/jkopetschke/SmartNinja/
+
+jkopetschke:~ jkopetschke$ mkdir + WUNSCHORDNERNAMEN  >>> Ordner erstellen
+Siehe:
+jkopetschke:~ jkopetschke$ mkdir smartninja_2018 >>> Ordner erstellen
+
+jkopetschke:~ jkopetschke$  my
+
+jkopetschke:smartninja_2018 jkopetschke$ git clone https://github.com/JohannesKopetschke/wd1_2018.git
+<<< GIT VERZEICHNIS Clonen
+
+Cloning into 'wd1_2018'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+jkopetschke:smartninja_2018 jkopetschke$ ls
+wd1_2018
+jkopetschke:smartninja_2018 jkopetschke$ cd wd1_2018/
+
+Wo bin ich in welchem Ordner >>> "pwd"
+Alles hoch laden durch >>> "git add ."
+

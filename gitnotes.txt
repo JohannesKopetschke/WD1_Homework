@@ -20,7 +20,7 @@ q = Quit
 
 Last login: Tue Sep 11 18:16:51 on ttys001
 jkopetschke:~ jkopetschke$ cd
-jkopetschke:~ jkopetschke$ pwd
+jkopetschke:~ jkopetschke$ pwd >>> Wo befinde ich mich?
 jkopetschke:~ jkopetschke$ cd Users/jkopetschke/SmartNinja/
 
 jkopetschke:~ jkopetschke$ mkdir + WUNSCHORDNERNAMEN  >>> Ordner erstellen
@@ -44,3 +44,5 @@ Wo bin ich in welchem Ordner >>> "pwd"
 Alles hoch laden durch >>> "git add ."
 
 git diff --staged >> Alle Änderungen die in der Staged Phase sind die commited werden sollen
+Rechts klick auf Folder > Terminal aufrufen, dann ist man direkt im Terminal im richtigen Ordner...
+

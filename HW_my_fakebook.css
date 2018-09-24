@@ -1,0 +1,87 @@
+
+
+p {
+    color: black;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: verdana;
+
+}
+
+h1 {
+    font-size: 28px;
+    font-family: verdana;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+thead {
+    color:blue;
+}
+tbody {
+    color:red;
+}
+tfoot {
+    color:red;
+}
+
+
+
+.Pyhton {
+margin: 0 auto;
+max-width: 40%;
+max-width: 40%;
+}
+
+.Pyhton:hover {
+    margin: 0 auto;
+    width: 400px;
+    transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+}
+
+.bvb {
+margin: 0 auto;
+}
+
+#headingOne {
+font-weight: bold;
+}
+
+.navbar {
+background-color: blue;
+}
+
+
+.container-fluid {
+width: 100%;
+margin: 0 auto;
+}
+
+carousel-inner {
+width: 100%;
+margin: 0 auto;
+
+}
+
+.container-item {
+position: relative;
+width: 100%;
+
+}
+
+.carousel-control-prev-icon {
+height: 50px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+color: black    ;
+}
+
+body {
+margin: 50px auto;
+position: relative;
+}

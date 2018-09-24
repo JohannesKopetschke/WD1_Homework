@@ -46,3 +46,8 @@ Alles hoch laden durch >>> "git add ."
 git diff --staged >> Alle Änderungen die in der Staged Phase sind die commited werden sollen
 Rechts klick auf Folder > Terminal aufrufen, dann ist man direkt im Terminal im richtigen Ordner...
 
+ git config --list  >>> Zeigt die Repo Adresse an
+
+ git pull >>> Online Änderungen in Git herunterladen
+
+git clone https://www..... >>> Git über eine best. URL herunterladen

@@ -1,1 +1,144 @@
 Hello
+
+.class
+display: block; für mobile >> Zeilenumbruch (Kurs)
+
+* {
+  box-sizing: border-box; >> Könte auch für mobile interessant sein (denke ich)
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* * targets everything on the page */
+
+
+
+
+
+
+Boogle notes:
+<div id="kasten" </div>
+
+
+<input ="placeholder">
+boder radius
+textaliign center
+button= color=schriftfarbe
+background-color=blau
+border radius abgredundet
+Ganz unten zentrierter link
+
+
+
+.logo {
+margin: 0 auto;
+width: 100px;
+}
+
+.login {
+margin: 0 auto;
+position: relative;
+top: -500px;
+width: 100px;
+
+}
+
+
+.greybox {
+    height: 600px;
+    width: 500px;
+    background-color: #f2efef;
+    margin: 0 auto;
+    position: relative;
+    left: 70px;
+
+}
+
+.Headline {
+    position: relative;
+    font-size: 35px;
+    left: 800px;
+    top: -70px;
+
+
+}
+
+.Subheadline {
+font-size: 28px;
+left: 800px;
+top: -40px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.form {
+    height: 100px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.enter  {
+    height: 40px;
+    width: 450px;
+    position: relative;
+    left: 40px;
+    top: -450px;
+    border-radius: 10px;
+    background-color: #fcf8bf;
+
+
+}
+
+
+.button {
+    position: relative;
+    width: 455px;
+    height: 45px;
+    color: white;
+    background-color: blue;
+    left: 40px;
+    top: -440px;
+    border-radius: 15px;
+
+}
+
+
+#help {
+    height: 100px;
+    width: 100px;
+    color: #5757ed;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 220px;
+    top: -440px;
+}
+
+#help:hover {
+color:red;
+}
+
+#create {
+    color: #46a6f4;
+    font-size: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 930px;
+    top: -420px;
+}
+
+#create:hover {
+color:blue;
+}
+
+
+Bootstrap notes
+

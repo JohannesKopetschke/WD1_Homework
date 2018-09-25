@@ -6,9 +6,17 @@ p {
 
 h2 {
     font-size: 24px;
+        padding-top: 5px;
     font-family: verdana;
-
 }
+
+h3 {
+    font-size: 22px;
+    padding-top: 5px;
+    font-family: verdana;
+    font-style: italic;
+}
+
 
 h1 {
     font-size: 28px;
@@ -57,7 +65,7 @@ background-color: blue;
 
 
 .container-fluid {
-width: 100%;
+width: 85%;
 margin: 0 auto;
 }
 
@@ -73,15 +81,31 @@ width: 100%;
 
 }
 
-.carousel-control-prev-icon {
+
+.carousel-control-next, .carousel-control-prev {
+height: 70px;
+color: #000;
+background-color: #000;
+
+}
+
+#carouselExampleIndicators {
+background-color: #000;
+}
+
+.carousel-indicators li {
+background-color: blue;
 height: 50px;
 }
 
-.carousel-control-next, .carousel-control-prev {
-color: black    ;
+.margin-allcontent {
+margin: 50px auto;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 10px;
+position: relative;
 }
 
-body {
-margin: 50px auto;
-position: relative;
+carousel-item active {
+width: 85%;
 }

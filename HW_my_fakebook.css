@@ -65,20 +65,13 @@ background-color: blue;
 
 
 .container-fluid {
-width: 85%;
+width: 100%;
 margin: 0 auto;
 }
 
-carousel-inner {
-width: 100%;
+.SEA, .SEO, .guertel , .python_slider {
+width: 100% !important;
 margin: 0 auto;
-
-}
-
-.container-item {
-position: relative;
-width: 100%;
-
 }
 
 
@@ -108,4 +101,11 @@ position: relative;
 
 carousel-item active {
 width: 85%;
+}
+
+.card-img-top {
+height: 240px;
+max-width: 75%;
+margin: 0 auto;
+
 }
